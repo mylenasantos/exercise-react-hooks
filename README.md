@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Api Fake com o array family:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Neste projeto existe uma library chamada json-server, ela me permite criar APIs fakes. Para executar o json-server:
 
-## Available Scripts
+Abra um terminal, diferente do que o seu servidor está sendo executado.
+Digite: json-server -p 3333 -w fake.json
+Com isso você conseguirá acessar a api via http://localhost:3333/family
+REGRINHAS:
 
-In the project directory, you can run:
+Crie uma nova página chamada Home com o layout que você quiser contendo as imagens, inputs recebendo o array family e o botão chamado adicionar com um ícone de +;
+Você pode escolher a cor que quiser para a página, os inputs e o Botão;
+Os inputs e o botão com o ícone devem ser do https://material-ui.com/pt/;
+Os inputs devem trazer o get assim que a tela seja carregada;
+Você deve tornar os inputs editáveis (eles devem permitir escrita);
+Ao clicar no botão de +, deve ser acrescentada mais um item para a inserção de dados do array family;
+o input "age" só deve aceitar números, os outros somente letras.
+Dicas preciosas:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O Material-ui já está instalado neste projeto;
+Para percorrer arrays em JavaScript é comum usarmos o método forEach ou o map;
+Para adicionar itens em um array em JavaScript usamos o método push;
+O nome do input no Material-ui se chama TextField e o ícone é o AddIcon.
