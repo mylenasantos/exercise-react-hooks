@@ -17,7 +17,10 @@ Os inputs devem trazer o get assim que a tela seja carregada;
 Você deve tornar os inputs editáveis (eles devem permitir escrita);
 Ao clicar no botão de +, deve ser acrescentada mais um item para a inserção de dados do array family;
 o input "age" só deve aceitar números, os outros somente letras.
-Dicas preciosas:
+
+
+
+DICAS PRECIOSAS:
 
 O Material-ui já está instalado neste projeto;
 Para percorrer arrays em JavaScript é comum usarmos o método forEach ou o map;
