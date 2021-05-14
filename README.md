@@ -9,7 +9,7 @@ Com isso você conseguirá acessar a api via http://localhost:3333/family
 
 
 REGRINHAS:
-
+Use a branch development;
 Crie uma nova página chamada Home com o layout que você quiser contendo as imagens, inputs recebendo o array family e o botão chamado adicionar com um ícone de +;
 Você pode escolher a cor que quiser para a página, os inputs e o Botão;
 Os inputs e o botão com o ícone devem ser do https://material-ui.com/pt/;
