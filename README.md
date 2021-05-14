@@ -5,6 +5,9 @@ Neste projeto existe uma library chamada json-server, ela me permite criar APIs 
 Abra um terminal, diferente do que o seu servidor está sendo executado.
 Digite: json-server -p 3333 -w fake.json
 Com isso você conseguirá acessar a api via http://localhost:3333/family
+
+
+
 REGRINHAS:
 
 Crie uma nova página chamada Home com o layout que você quiser contendo as imagens, inputs recebendo o array family e o botão chamado adicionar com um ícone de +;
