@@ -1,8 +1,16 @@
+import React, {
+  Fragment
+} from 'react';
 
+import Routes from './Routes';
+import GlobalStyle from './assets/Global/styles';
 
 function App() {
   return (
-   <h1>Oi, me tire daqui e inclua sua página.</h1>
+    <Fragment>
+      <GlobalStyle />
+      <Routes/>
+  </Fragment>
   );
 }
 
