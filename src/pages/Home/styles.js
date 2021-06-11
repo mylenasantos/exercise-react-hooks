@@ -4,7 +4,6 @@ import styled from 'styled-components/macro';
 export const Container = styled.section `
   display: flex;
   flex-direction: column;
-  height: 100vh; // altura padrao da tela inteira
   margin: 15px 16px 20px 16px;
   padding: 20px 18px 20px 18px;
   background-color: #A9DFBF;
