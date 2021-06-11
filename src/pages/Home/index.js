@@ -19,7 +19,7 @@ export default function Home()
   }, []); //o useEffect precisa desse parametro => pesquisar sobre o useEffect 
   return (<> 
     <Style.Container>
-      {!!family && family.length > 0 && family.map(item => {
+      {family && family.length > 0 && family.map(item => {
         return (
           <div>
           <Style.Image >
